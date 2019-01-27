@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Musica</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+<link rel="shortcut icon" href="/img/linux_48.png">
+
+</head>
+
+
+<body>
+
+<h1>Hola mundo!</h1>
+
+<div class="app">
+	
+	<div class="contenedor-izquierdo">
+		<ul class="lista-canciones">
+			<li class="cancion">
+				cancion 1
+			</li>
+
+			<li class="cancion">
+				cancion 2
+			</li>
+
+
+		</ul>
+
+	</div>
+
+
+
+
+
+<div class="contenedor-derecho">
+		<audio class="audio" controls src="/canciones/Fool.mp3" ></audio>
+ 
+	</div>
+
+
+
+<form  class="upload-form" action="/canciones" method="POST" enctype="multipart/form-data">
+subir cacion:
+	<input type="file" name="cancion" required="">
+	<input type="submit" value="subir">
+
+</form>
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
